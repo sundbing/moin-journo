@@ -139,14 +139,14 @@
 **Bedeutung:** Informationsgeber, sachlich und hanseatisch.
 
 ## Moinitiator / -in (36.)
-**Lautsprache:** [moin-i-ti-a-to-rin]  
+**Lautsprache:** [moin-i-ti-a-tor / in]  
 **Bedeutung:** Die weibliche Anstoßgeberin, norddeutsch und klar.
 
 ## Moinitiativkraft (37.)
 **Lautsprache:** [moin-i-ti-a-tiv-kraft / in]  
 **Bedeutung:** Die stille Kraft hinter einer Initiative.
 
-## Moinventor (38.)
+## Moinventor / -in (38.)
 **Lautsprache:** [moin-ven-tor / in]  
 **Bedeutung:** Erfinder mit norddeutscher Gelassenheit.
 
