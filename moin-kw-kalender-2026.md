@@ -1,195 +1,219 @@
-## 1. Moinitiative
+## Moinitiative (1.)
 **Lautsprache:** [moin-i-ti-a-tive]  
 **Bedeutung:** Eine Aktion, die mit hanseatischer Gelassenheit gestartet wird.
 
-## 2. Moinnovation
+## Moinnovation (2.)
 **Lautsprache:** [moin-no-va-tion]  
 **Bedeutung:** Kreative Ideen, die nicht laut trommeln, sondern leise überzeugen.
 
-## 3. Mointegration
+## Mointegration (3.)
 **Lautsprache:** [moin-te-gra-tion]  
 **Bedeutung:** Dinge zusammenbringen – aber ohne großes Tamtam, typisch norddeutsch.
 
-## 4. Moinformation
+## Moinformation (4.)
 **Lautsprache:** [moin-for-ma-tion]  
 **Bedeutung:** Wissen teilen, aber bitte sachlich und ohne Schnickschnack.
 
-## 5. Moinfrastructure
+## Moinfrastructure (5.)
 **Lautsprache:** [moin-fra-struk-tur]  
 **Bedeutung:** Solide Basis schaffen, wie ein Deich: unspektakulär, aber unverzichtbar.
 
-## 6. Mointernational
+## Mointernational (6.)
 **Lautsprache:** [moin-ter-na-tio-nal]  
 **Bedeutung:** Global denken, lokal handeln – und dabei immer „Moin“ sagen.
 
-## 7. Moincubator
+## Moincubator (7.)
 **Lautsprache:** [moin-ku-ba-tor]  
 **Bedeutung:** Ideen reifen lassen, wie ein guter Labskaus im Topf.
 
-## 8. Moinventory
+## Moinventory (8.)
 **Lautsprache:** [moin-ven-to-ry]  
 **Bedeutung:** Überblick behalten, ohne Stress – typisch norddeutsche Ordnung.
 
-## 9. Moincentive
+## Moincentive (9.)
 **Lautsprache:** [moin-sen-tiv]  
 **Bedeutung:** Motivation, aber ohne Konfetti – ein ehrliches „Gut gemacht“.
 
-## 10. Moinvestment
+## Moinvestment (10.)
 **Lautsprache:** [moin-ves-tment]  
 **Bedeutung:** Investieren mit Weitsicht und Ruhe, nicht hektisch wie anderswo.
 
-## 11. Moinitoring
+## Moinitoring (11.)
 **Lautsprache:** [moin-i-to-ring]  
 **Bedeutung:** Beobachten ohne Drama – wie der Blick auf die Elbe.
 
-## 12. Moinanalytics
+## Moinanalytics (12.)
 **Lautsprache:** [moin-a-na-ly-tiks]  
 **Bedeutung:** Zahlen verstehen, ohne Schnickschnack.
 
-## 13. Moinitiator
+## Moinitiator / -in (13.)
 **Lautsprache:** [moin-i-ti-a-tor]  
 **Bedeutung:** Der stille Anstoßgeber, der Dinge ins Rollen bringt.
 
-## 14. Moinfluence
+## Moinfluence (14.)
 **Lautsprache:** [moin-flu-ence]  
 **Bedeutung:** Einfluss nehmen, ohne laut zu sein – Understatement pur.
 
-## 15. Mointegrity
+## Mointegrity (15.)
 **Lautsprache:** [moin-te-gri-ty]  
 **Bedeutung:** Ehrlichkeit und Verlässlichkeit, wie ein norddeutscher Handschlag.
 
-## 16. Mointeraction
+## Mointeraction (16.)
 **Lautsprache:** [moin-ter-ak-tion]  
 **Bedeutung:** Austausch, aber bitte respektvoll und ohne großes Drama.
 
-## 17. Mointerview
+## Mointerview (17.)
 **Lautsprache:** [moin-ter-view]  
 **Bedeutung:** Gespräch auf Augenhöhe – und mit einem „Moin“ am Anfang.
 
-## 18. Mointerpretation
+## Mointerpretation (18.)
 **Lautsprache:** [moin-ter-pre-ta-tion]  
 **Bedeutung:** Dinge erklären, ohne sie aufzublasen – klar und hanseatisch.
 
-## 19. Moinception
+## Moinception (19.)
 **Lautsprache:** [moin-cep-tion]  
 **Bedeutung:** Die Idee hinter der Idee – wie ein doppeltes „Moin“.
 
-## 20. Moincredible
+## Moincredible (20.)
 **Lautsprache:** [moin-cre-di-ble]  
 **Bedeutung:** Unglaublich gut, aber nicht laut – typisch norddeutsch.
 
-## 21. Moinclusive
+## Moinclusive (21.)
 **Lautsprache:** [moin-klu-siv]  
 **Bedeutung:** Alle mitnehmen, ohne großes Trara – einfach dabei sein.
 
-## 22. Mointernal
+## Mointernal (22.)
 **Lautsprache:** [moin-ter-nal]  
 **Bedeutung:** Internes Thema, aber mit norddeutscher Offenheit.
 
-## 23. Mointernationalization
+## Mointernationalization (23.)
 **Lautsprache:** [moin-ter-na-tio-na-li-sa-tion]  
 **Bedeutung:** Weltweit „Moin“ sagen – und trotzdem bodenständig bleiben.
 
-## 24. Moinigma
+## Moinigma (24.)
 **Lautsprache:** [moin-ig-ma]  
 **Bedeutung:** Geheimnisvoll und rätselhaft, wie der Nebel über der Elbe.
 
-## 25. Moinfinity
+## Moinfinity (25.)
 **Lautsprache:** [moin-fi-ni-ty]  
 **Bedeutung:** Unendliche Gelassenheit – typisch norddeutsch.
 
-## 26. Moinergy
+## Moinergy (26.)
 **Lautsprache:** [moin-er-gy]  
 **Bedeutung:** Energie, aber ohne Hektik – wie ein stetiger Wind.
 
-## 27. Moinology
+## Moinology (27.)
 **Lautsprache:** [moin-o-lo-gy]  
 **Bedeutung:** Die Lehre vom „Moin“ – norddeutsche Philosophie.
 
-## 28. Moinosphere
+## Moinosphere (28.)
 **Lautsprache:** [moin-o-sphe-re]  
 **Bedeutung:** Die Atmosphäre des „Moin“ – freundlich und offen.
 
-## 29. Moinetic
+## Moinetic (29.)
 **Lautsprache:** [moin-e-tic]  
 **Bedeutung:** Bewegung, aber ruhig und bedacht.
 
-## 30. Moinspiration
+## Moinspiration (30.)
 **Lautsprache:** [moin-spi-ra-tion]  
 **Bedeutung:** Inspiration, die leise wirkt.
 
-## 31. Moinvestigator
-**Lautsprache:** [moin-ves-ti-ga-tor]  
+## Moinvestigator (31.)
+**Lautsprache:** [moin-ves-ti-ga-tor / in]  
 **Bedeutung:** Forscher mit hanseatischer Ruhe.
 
-## 32. Moinnovationist
+## Moinnovationist / -in (32.)
 **Lautsprache:** [moin-no-va-tio-nist]  
 **Bedeutung:** Derjenige, der stille Innovationen vorantreibt.
 
-## 33. Mointegrator
-**Lautsprache:** [moin-te-gra-tor]  
+## Mointegrator (33.)
+**Lautsprache:** [moin-te-gra-tor / in]  
 **Bedeutung:** Brückenbauer ohne großes Aufsehen.
 
-## 34. Moinstructor
-**Lautsprache:** [moin-stru-ctor]  
+## Moinstructor (34.)
+**Lautsprache:** [moin-stru-ctor / in]  
 **Bedeutung:** Lehrer, der Wissen ruhig und klar vermittelt.
 
-## 35. Moinformer
-**Lautsprache:** [moin-for-mer]  
+## Moinformer (35.)
+**Lautsprache:** [moin-for-mer / in]  
 **Bedeutung:** Informationsgeber, sachlich und hanseatisch.
 
-## 36. Moinitiatorin
+## Moinitiator / -in (36.)
 **Lautsprache:** [moin-i-ti-a-to-rin]  
 **Bedeutung:** Die weibliche Anstoßgeberin, norddeutsch und klar.
 
-## 37. Moinitiativkraft
-**Lautsprache:** [moin-i-ti-a-tiv-kraft]  
+## Moinitiativkraft (37.)
+**Lautsprache:** [moin-i-ti-a-tiv-kraft / in]  
 **Bedeutung:** Die stille Kraft hinter einer Initiative.
 
-## 38. Moinventor
-**Lautsprache:** [moin-ven-tor]  
+## Moinventor (38.)
+**Lautsprache:** [moin-ven-tor / in]  
 **Bedeutung:** Erfinder mit norddeutscher Gelassenheit.
 
-## 39. Mointegral
+## Mointegral (39.)
 **Lautsprache:** [moin-te-gral]  
 **Bedeutung:** Unverzichtbarer Bestandteil, solide und klar.
 
-## 40. Moinstitution
+## Moinstitution (40.)
 **Lautsprache:** [moin-sti-tu-tion]  
 **Bedeutung:** Einrichtung mit hanseatischer Beständigkeit.
 
-## 41. Moinvestigativ
+## Moinvestigativ (41.)
 **Lautsprache:** [moin-ves-ti-ga-tiv]  
 **Bedeutung:** Nachforschend, aber ohne Aufsehen.
 
-## 42. Moinspirativ
+## Moinspirativ (42.)
 **Lautsprache:** [moin-spi-ra-tiv]  
 **Bedeutung:** Inspirierend, aber leise und unaufdringlich.
 
-## 43. Moinnovativ
+## Moinnovativ (43.)
 **Lautsprache:** [moin-no-va-tiv]  
 **Bedeutung:** Innovativ, aber bodenständig.
 
-## 44. Moinstitutionell
+## Moinstitutionell (44.)
 **Lautsprache:** [moin-sti-tu-tio-nell]  
 **Bedeutung:** Strukturiert und verlässlich wie eine Institution.
 
-## 45. Moinkursion
+## Moinkursion (45.)
 **Lautsprache:** [moin-kur-sion]  
 **Bedeutung:** Ein Ausflug in neue Ideen, aber ohne Hektik.
 
-## 46. Moinzeptanz
+## Moinzeptanz (46.)
 **Lautsprache:** [moin-zep-tanz]  
 **Bedeutung:** Akzeptanz mit hanseatischer Offenheit.
 
-## 47. Mointrinsisch
+## Mointrinsisch (47.)
 **Lautsprache:** [moin-trin-sisch]  
 **Bedeutung:** Von innen heraus ruhig und echt.
 
-## 48. Moinkarnation
+## Moinkarnation (48.)
 **Lautsprache:** [moin-kar-na-tion]  
 **Bedeutung:** Die Verkörperung des „Moin“-Geistes.
 
-## 49. Oh Moin Deus
-**Lautsprache:** [oh-moin-de-us]
-**Bedeutung:** Ein augenzwinkernder Ausruf für etwas Großartiges, aber hanseatisch zurückhaltend – „Wow, aber norddeutsch!“.
+## Oh Moin Deus (49.)
+**Lautsprache:** [oh-moin-de-us]  
+**Bedeutung:** Ein augenzwinkernder Ausruf für etwas Großartiges, aber hanseatisch zurückhaltend – „Wow, aber norddeutsch!“. 
+
+## Moinarchist / -in (50.)
+**Lautsprache:** [moin-ar-chist]  
+**Bedeutung:** Jemand, der norddeutsche Gelassenheit gegen hektische Trends verteidigt.
+
+## Moinopoly (51.)
+**Lautsprache:** [moin-o-po-ly]  
+**Bedeutung:** Ein Spiel um hanseatische Werte und Ruhe statt Stress.
+
+## Moinerva (52.)
+**Lautsprache:** [moin-er-va]  
+**Bedeutung:** Weisheit mit norddeutschem Understatement.
+
+## Moindset (53.)
+**Lautsprache:** [moin-d-set]  
+**Bedeutung:** Die innere Haltung: ruhig, klar, hanseatisch.
+
+## Moinifesto (54.)
+**Lautsprache:** [moin-i-fes-to]  
+**Bedeutung:** Das Manifest für Gelassenheit und Klarheit.
+
+## Moinopolyze (55.)
+**Lautsprache:** [moin-o-po-ly-ze]  
+**Bedeutung:** Den Alltag entschleunigen, hanseatisch.
