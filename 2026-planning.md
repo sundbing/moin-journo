@@ -72,6 +72,6 @@ KW 47 – Moinitiativkraft (Die stille Kraft im Jahresendspurt).
 KW 48 – Moindset (Haltung festigen – Advent steht vor der Tür).
 KW 49 – Oh Moin Deus (Augenzwinkern zum Adventsbeginn – staunen, aber norddeutsch).
 KW 50 – Moinnovationist/-in (Menschen, die leise Erneuerung vorantreiben).
-KW 51 – Moinopolyze (Alltag entschleunigen – kurz vor den Feiertagen).)
+KW 51 – Moinopolyze (Alltag entschleunigen – kurz vor den Feiertagen).
 KW 52 – Moinerva (Weisheit & Wärme – Weihnachten 25.–26. Dez). 
 KW 53 – Moinspirativ (Leiser Funken für die Jahresbrücke – ruhig ins 2027).
