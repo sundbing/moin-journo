@@ -217,3 +217,15 @@
 ## Moinopolyze (55.)
 **Lautsprache:** [moin-o-po-ly-ze]  
 **Bedeutung:** Den Alltag entschleunigen, hanseatisch.
+
+## Moinjourno (56.)
+**Lautsprache:** [moin-dschur-no]  
+**Bedeutung:** Ein norddeutsches „Guten Tag“ mit internationalem Augenzwinkern.
+
+## Moindias (57.)
+**Lautsprache:** [moin-di-as]  
+**Bedeutung:** Ein norddeutscher Morgengruß mit einem Hauch südlichem Flair – freundlich, hell und gelassen.
+
+## Moinichiwa (58.)
+**Lautsprache:** [moin-ni-tschi-wa]  
+**Bedeutung:** Ein norddeutscher Tagesgruß mit fernöstlichem Flair – höflich, ruhig und freundlich.

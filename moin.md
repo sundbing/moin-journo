@@ -54,3 +54,6 @@
 | Mointegration Excellence | [moin-te-gra-tion-ex-ce-llence] | Integration auf höchstem Niveau. |
 | Moinnovation Leadership | [moin-no-va-tion-lea-der-ship] | Führung mit Ideen und Ruhe. |
 | Moinkpi | [moin-ka-pi-ai] | Kennzahl, die nicht protzt, sondern Orientierung gibt. |
+| Moinjourno | [moin-dschur-no] | Anlehnung an „Bonjourno“: ein norddeutsches „Guten Tag“ mit internationalem Augenzwinkern. |
+| Moindias | [moin-di-as] | Anlehnung an „Buenos días“: ein norddeutscher Morgengruß mit einem Hauch südlichem Flair – freundlich, hell und gelassen. |
+| Moinichiwa | [moin-ni-tschi-wa] | Anlehnung an „Konnichiwa“: ein norddeutscher Tagesgruß mit fernöstlichem Flair – höflich, ruhig und freundlich. |
