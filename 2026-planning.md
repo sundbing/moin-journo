@@ -55,3 +55,4 @@
 | 51 | Moinopolyze | Alltag entschleunigen – kurz vor den Feiertagen. |
 | 52 | Moinerva | Weisheit & Wärme – Weihnachten 25.–26. Dez. |
 | 53 | Moinspirativ | Leiser Funken für die Jahresbrücke – ruhig ins 2027. |
+| 54 | Moinjourno | Leiser Funken für die Jahresbrücke – ruhig ins 2027. |
