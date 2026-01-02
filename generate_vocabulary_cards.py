@@ -2,7 +2,7 @@
 """
 Vocabulary Card Generator for moin-journo project
 Generates printable vocabulary cards from markdown files
-Version 5.0 - Wide format with Origin field support
+Version 7.1 - FIXED: Syntax error and Bedeutung displays correctly
 """
 
 from PIL import Image, ImageDraw, ImageFont
@@ -22,7 +22,7 @@ class VocabularyCardGenerator:
         self.bg_color = (255, 255, 255)
         self.text_color = (50, 50, 50)
         self.highlight_color = (41, 128, 185)
-        self.origin_color = (150, 150, 150)  # Light gray for origin
+        self.origin_color = (180, 180, 180)  # Light gray for origin
         
         # Load fonts
         self._load_fonts()
@@ -38,7 +38,7 @@ class VocabularyCardGenerator:
         
         try:
             self.font_large = ImageFont.truetype(font_paths[0], 80)
-            self.font_medium = ImageFont.truetype(font_paths[1], 40)
+            self.font_medium = ImageFont.truetype(font_paths[1], 32)
             self.font_small = ImageFont.truetype(font_paths[1], 24)
             self.font_tiny = ImageFont.truetype(font_paths[1], 20)
         except:
@@ -54,8 +54,8 @@ class VocabularyCardGenerator:
             content = f.read()
         
         entries = []
-        # Updated pattern to capture Origin field (optional)
-        pattern = r'##\s+([^\n]+?)\s*(?:\((\d+\.?)\))?\s*\n\s*\*\*Lautsprache:\*\*\s*\[([^\]]+)\]\s*\n\s*(?:\*\*Origin:\*\*\s*([^\n]+?)\s*\n)?\s*\*\*Bedeutung:\*\*\s*([^\n]+?)(?:\s*\n\s*\*\*Language:\*\*\s*([A-Z]{2}))?'
+        # FIXED pattern - now captures full Bedeutung text correctly
+        pattern = r'##\s+([^\n]+?)\s*(?:\((\d+\.?)\))?\s*\n\s*\*\*Lautsprache:\*\*\s*\[([^\]]+)\]\s*\n\s*(?:\*\*Origin:\*\*\s*([^\n]+?)\s*\n)?\s*\*\*Bedeutung:\*\*\s*(.+?)(?:\s*\n\s*\*\*Language:\*\*\s*([A-Z]{2}))?(?=\n\n|$)'
         
         matches = re.finditer(pattern, content, re.MULTILINE | re.DOTALL)
         
@@ -64,7 +64,7 @@ class VocabularyCardGenerator:
             number = match.group(2) if match.group(2) else "1"
             pronunciation = match.group(3).strip()
             origin = match.group(4).strip() if match.group(4) else ""
-            meaning = match.group(5).strip()
+            meaning = match.group(5).strip()  # This now captures the FULL text
             language = match.group(6).strip().upper() if match.group(6) else "DE"
             
             # Extract article and clean word
@@ -89,7 +89,7 @@ class VocabularyCardGenerator:
         return entries
     
     def create_card(self, entry, output_filename):
-        """Create a wide vocabulary card image with origin"""
+        """Create a wide vocabulary card image with origin below word"""
         img = Image.new('RGB', (self.width, self.height), self.bg_color)
         draw = ImageDraw.Draw(img)
         
@@ -100,49 +100,47 @@ class VocabularyCardGenerator:
         draw.text(((self.width - text_width) / 2, 30), top_info, fill=self.text_color, font=self.font_small)
         
         # Draw top separator line
-        draw.line([(120, 105), (self.width - 120, 105)], fill=self.text_color, width=2)
+        draw.line([(100, 90), (self.width - 100, 90)], fill=self.text_color, width=2)
         
-        # Draw main word with origin - CENTERED
+        # Draw main word - CENTERED
         word_text = entry['word']
         article = entry.get('article', '')
-        origin = entry.get('origin', '')
         
-        # Calculate centered position for article + word + origin
+        # Calculate centered position for article + word
         bbox_article = draw.textbbox((0, 0), article + " " if article else "", font=self.font_large)
         article_width = bbox_article[2] - bbox_article[0]
         
         bbox_word = draw.textbbox((0, 0), word_text, font=self.font_large)
         word_width = bbox_word[2] - bbox_word[0]
         
-        # Origin in smaller font and gray
-        origin_text = f" ({origin})" if origin else ""
-        bbox_origin = draw.textbbox((0, 0), origin_text, font=self.font_medium)
-        origin_width = bbox_origin[2] - bbox_origin[0]
-        
-        total_width = article_width + word_width + origin_width
+        total_width = article_width + word_width
         start_x = (self.width - total_width) / 2
         
         # Draw article in black (if exists)
         current_x = start_x
         if article:
-            draw.text((current_x, 130), article, fill=self.text_color, font=self.font_large)
+            draw.text((current_x, 115), article, fill=self.text_color, font=self.font_large)
             current_x += article_width
         
         # Draw word in blue
-        draw.text((current_x, 130), word_text, fill=self.highlight_color, font=self.font_large)
-        current_x += word_width
+        draw.text((current_x, 115), word_text, fill=self.highlight_color, font=self.font_large)
         
-        # Draw origin in light gray (slightly lower to align)
+        # Draw origin BELOW the word in light gray - CENTERED
+        origin = entry.get('origin', '')
         if origin:
-            draw.text((current_x, 145), origin_text, fill=self.origin_color, font=self.font_medium)
+            origin_text = f"({origin})"
+            bbox_origin = draw.textbbox((0, 0), origin_text, font=self.font_medium)
+            origin_width = bbox_origin[2] - bbox_origin[0]
+            draw.text(((self.width - origin_width) / 2, 205), origin_text, fill=self.origin_color, font=self.font_medium)
         
-        # Draw middle separator line
-        draw.line([(120, 250), (self.width - 120, 250)], fill=self.text_color, width=2)
+        # Draw middle separator line (adjust position based on whether origin exists)
+        y_separator = 265 if origin else 235
+        draw.line([(100, y_separator), (self.width - 100, y_separator)], fill=self.text_color, width=2)
         
         # Draw meaning (wrapped and centered)
-        meaning_lines = self._wrap_text(entry['meaning'], self.font_small, self.width - 240)
-        y_pos = 285
-        for line in meaning_lines[:5]:  # Max 5 lines
+        meaning_lines = self._wrap_text(entry['meaning'], self.font_small, self.width - 200)
+        y_pos = y_separator + 30
+        for line in meaning_lines[:4]:  # Max 4 lines
             bbox = draw.textbbox((0, 0), line, font=self.font_small)
             line_width = bbox[2] - bbox[0]
             x_centered = (self.width - line_width) / 2
@@ -150,7 +148,7 @@ class VocabularyCardGenerator:
             y_pos += 35
         
         # Draw bottom separator line
-        draw.line([(120, self.height - 70), (self.width - 120, self.height - 70)], fill=self.text_color, width=2)
+        draw.line([(100, self.height - 70), (self.width - 100, self.height - 70)], fill=self.text_color, width=2)
         
         # Draw footer - CENTERED
         footer_text = "moin-journo · CC BY-SA 4.0"
@@ -201,8 +199,9 @@ class VocabularyCardGenerator:
             self.create_card(entry, output_filename)
             output_files.append(output_filename)
             
-            origin_display = f" (Origin: {entry['origin']})" if entry['origin'] else ""
-            print(f"  ✓ Created: {output_filename}{origin_display}")
+            # Show preview of what was captured - FIXED SYNTAX
+            meaning_preview = entry['meaning'][:50] + "..." if len(entry['meaning']) > 50 else entry['meaning']
+            print(f"  ✓ {entry['word']} - \"{meaning_preview}\"")
         
         return output_files
     
@@ -227,8 +226,8 @@ class VocabularyCardGenerator:
 def main():
     """Main entry point"""
     print("=" * 60)
-    print("📚 moin-journo Vocabulary Card Generator v5.0")
-    print("🎨 Wide Format with Origin Support")
+    print("📚 moin-journo Vocabulary Card Generator v7.1")
+    print("🎨 Wide Format with Origin Below Word")
     print("=" * 60)
     
     if len(sys.argv) < 2:
