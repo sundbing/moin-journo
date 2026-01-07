@@ -72,8 +72,8 @@
 
 ## Moinitiator / -in (13.)
 **Lautsprache:** [moin-i-ti-a-tor]  
-**Origin:** Initionator
-**Bedeutung:** Der stille Anstoßgeber, der Dinge ins Rollen bringt.
+**Origin:** Initionator / -in
+**Bedeutung:** Stille Anstoßgeber, die Dinge ins Rollen bringt.
 **Language:** DE
 
 ## Moinfluence (14.)
@@ -118,7 +118,7 @@
 **Bedeutung:** Unglaublich gut, aber nicht laut – typisch norddeutsch.
 **Language:** FR
 
-## Moinclusive (21.)
+## Moinklusiv (21.)
 **Lautsprache:** [moin-klu-siv] 
 **Origin:** Inklusiv 
 **Bedeutung:** Alle mitnehmen, ohne großes Trara – einfach dabei sein.
@@ -130,9 +130,9 @@
 **Bedeutung:** Internes Thema, aber mit norddeutscher Offenheit.
 **Language:** EN
 
-## Mointernationalization (23.)
-**Lautsprache:** [moin-ter-na-tio-na-li-sa-tion]  
-**Origin:** Internationalization
+## Mointernationalisierung (23.)
+**Lautsprache:** [moin-ter-na-tio-na-li-sie-rung]  
+**Origin:** Internationalisierung
 **Bedeutung:** Weltweit „Moin“ sagen – und trotzdem bodenständig bleiben.
 **Language:** EN
 
@@ -160,7 +160,7 @@
 **Bedeutung:** Die Lehre vom „Moin“ – norddeutsche Philosophie.
 **Language:** GR
 
-## Moinosphere (28.)
+## Moinosphäre (28.)
 **Lautsprache:** [moin-o-sphe-re]  
 **Origin:** Atmophäre
 **Bedeutung:** Die Atmosphäre des „Moin“ – freundlich und offen.
@@ -180,32 +180,32 @@
 
 ## Moinvestigator / -in (31.)
 **Lautsprache:** [moin-ves-ti-ga-tor / in]  
-**Origin:** Investigator
-**Bedeutung:** Forscher mit hanseatischer Ruhe.
+**Origin:** Investigator / -in
+**Bedeutung:** Forschende mit hanseatischer Ruhe.
 **Language:** EN
 
 ## Moinnovationist / -in (32.)
-**Lautsprache:** [moin-no-va-tio-nist]  
-**Origin:** Innovationist
-**Bedeutung:** Derjenige, der stille Innovationen vorantreibt.
+**Lautsprache:** [moin-no-va-tio-nist / in]  
+**Origin:** Innovationist / -in
+**Bedeutung:** Diejenigen, die in aller Stille Innovationen vorantreiben.
 **Language:** EN
 
 ## Mointegrator / -in (33.)
 **Lautsprache:** [moin-te-gra-tor / in]  
-**Origin:** Integrator
+**Origin:** Integrator / -in
 **Bedeutung:** Brückenbauer ohne großes Aufsehen.
 **Language:** EN
 
-## Moinstructor (34.)
+## Moinstructor / -in (34.)
 **Lautsprache:** [moin-stru-ctor / in]  
-**Origin:** Instructor
-**Bedeutung:** Lehrer, der Wissen ruhig und klar vermittelt.
+**Origin:** Instructor / -in
+**Bedeutung:** Lehrende, die Wissen ruhig und klar vermitteln.
 **Language:** EN
 
 ## Moinformer / -in (35.)
 **Lautsprache:** [moin-for-mer / in]  
-**Origin:** Informer
-**Bedeutung:** Informationsgeber, sachlich und hanseatisch.
+**Origin:** Informer / -in
+**Bedeutung:** Informierende Person, sachlich und hanseatisch.
 **Language:** EN
 
 ## Moinitiator / -in (36.)
@@ -220,8 +220,8 @@
 **Bedeutung:** Die stille Kraft hinter einer Initiative.
 **Language:** DE
 
-## Moinventor / -in (38.)
-**Lautsprache:** [moin-ven-tor / in]
+## Moinventor (38.)
+**Lautsprache:** [moin-ven-tor]
 **Origin:** Inventor  
 **Bedeutung:** Erfinder mit norddeutscher Gelassenheit.
 **Language:** EN
@@ -264,7 +264,7 @@
 
 ## Moinkursion (45.)
 **Lautsprache:** [moin-kur-sion]
-**Origin:** Inkursion  
+**Origin:** Exkursion  
 **Bedeutung:** Ein Ausflug in neue Ideen, aber ohne Hektik.
 **Language:** LA
 
@@ -289,12 +289,12 @@
 ## Oh Moin Deus (49.)
 **Lautsprache:** [oh-moin-de-us]  
 **Origin:** Oh Mon Deus
-**Bedeutung:** Ein augenzwinkernder Ausruf für etwas Großartiges, aber hanseatisch zurückhaltend – „Wow, aber norddeutsch!“. 
+**Bedeutung:** Ein augenzwinkernder Ausruf für etwas Großartiges, aber hanseatisch zurückhaltend – „WOW", aber kleingeschrieben! 
 **Language:** FR
 
 ## Moinarchist / -in (50.)
-**Lautsprache:** [moin-ar-chist]  
-**Origin:** Anarchist
+**Lautsprache:** [moin-ar-chist / in]  
+**Origin:** Anarchist / -in
 **Bedeutung:** Jemand, der norddeutsche Gelassenheit gegen hektische Trends verteidigt.
 **Language:** GR
 
@@ -344,4 +344,11 @@
 **Lautsprache:** [moin-ni-tschi-wa]  
 **Origin:** Conichiwa
 **Bedeutung:** Ein norddeutscher Tagesgruß mit fernöstlichem Flair – höflich, ruhig und freundlich.
+**Language:** JP
+
+
+## Moin (59.)
+**Lautsprache:** [m-o-i-n]  
+**Origin:** Norddeutsche Lebensart, hanseatisch, gelassen, echt.
+**Bedeutung:** moin - Moin - mojn - Moien - moi - amoin - mojen - mòjn - moins - moinz - Mojn - Meun - Moi’n
 **Language:** JP
