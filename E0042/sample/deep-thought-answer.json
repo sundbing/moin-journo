@@ -1,0 +1,58 @@
+{
+    "$schema": "../schema/deep-thought-answer.schema.json",
+    "id": "00000042-0000-0000-0000-000000000042",
+    "source": "deep-thought.magrathea.universe",
+    "specversion": "1.0",
+    "type": "com.deep-thought.universe.answer.computed",
+    "datacontenttype": "application/json",
+    "dataschema": "../schema/deep-thought-answer.schema.json",
+    "subject": "philosophy/universe/ultimate-question/answer/v42/json/deep-thought/42",
+    "time": "1979-10-12T00:00:00.000Z",
+    "data": {
+        "answer": 42,
+        "question": null,
+        "computedBy": {
+            "name": "Deep Thought",
+            "type": "SECOND_GREATEST_COMPUTER_IN_ALL_OF_TIME_AND_SPACE",
+            "location": "Magrathea",
+            "successor": "Earth"
+        },
+        "computationDuration": {
+            "value": 7500000,
+            "unit": "years"
+        },
+        "computationStatus": "COMPLETE",
+        "panicking": false,
+        "towelsRequired": 1,
+        "nextStep": {
+            "action": "BUILD_GREATER_COMPUTER_TO_FIND_THE_QUESTION",
+            "computerName": "Earth",
+            "builtBy": "Magratheans",
+            "operatingSystem": "life",
+            "estimatedDuration": {
+                "value": 10000000,
+                "unit": "years"
+            },
+            "actualStatus": "DESTROYED_BY_VOGON_CONSTRUCTOR_FLEET",
+            "timeRemainingAtDestruction": {
+                "value": 5,
+                "unit": "minutes"
+            },
+            "reasonForDestruction": "Hyperspace bypass construction. Planning notices were on display."
+        },
+        "warnings": [
+            "DON'T PANIC",
+            "Always know where your towel is"
+        ],
+        "marvinsObservation": "Here I am, brain the size of a planet, delivering event payloads. Call that job satisfaction? 'Cos I don't.",
+        "vogonPoetryRiskLevel": "HIGH",
+        "hitchhikersGuideEntry": "Mostly harmless.",
+        "improbabilityFactor": "2^276709",
+        "restaurantReservation": {
+            "name": "Milliways - The Restaurant at the End of the Universe",
+            "reservationTime": "end-of-time",
+            "dresscode": "smart casual",
+            "note": "Reservation confirmed. Please bring your own temporal displacement device."
+        }
+    }
+}

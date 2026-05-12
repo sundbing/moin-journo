@@ -1,0 +1,241 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Schema for E0042 — The Answer to the Ultimate Question of Life, the Universe, and Everything. Computed by Deep Thought after 7.5 million years. DON'T PANIC.",
+    "type": "object",
+    "required": ["id", "source", "specversion", "type", "data"],
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Unique identifier for the event.",
+            "example": "00000042-0000-0000-0000-000000000042"
+        },
+        "source": {
+            "type": "string",
+            "format": "uri-reference",
+            "description": "Origin of the event. Must be Deep Thought.",
+            "example": "deep-thought.magrathea.universe"
+        },
+        "specversion": {
+            "type": "string",
+            "const": "1.0"
+        },
+        "type": {
+            "type": "string",
+            "const": "com.deep-thought.universe.answer.computed",
+            "description": "Event type. Only one valid value has ever existed."
+        },
+        "datacontenttype": {
+            "type": "string",
+            "const": "application/json"
+        },
+        "dataschema": {
+            "type": "string",
+            "format": "uri"
+        },
+        "subject": {
+            "type": "string",
+            "description": "Topic path following the pattern: philosophy/universe/ultimate-question/answer/v42/json/deep-thought/{answer}",
+            "example": "philosophy/universe/ultimate-question/answer/v42/json/deep-thought/42"
+        },
+        "time": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Timestamp of the computation completion. Relative to the local time zone of Magrathea."
+        },
+        "data": {
+            "$ref": "#/$defs/DeepThoughtAnswer"
+        }
+    },
+    "$defs": {
+        "DeepThoughtAnswer": {
+            "type": "object",
+            "description": "The answer payload from Deep Thought. Read carefully. Then read again. It is 42.",
+            "additionalProperties": false,
+            "required": [
+                "answer",
+                "computedBy",
+                "computationDuration",
+                "computationStatus",
+                "panicking",
+                "towelsRequired",
+                "warnings",
+                "marvinsObservation",
+                "vogonPoetryRiskLevel",
+                "hitchhikersGuideEntry"
+            ],
+            "properties": {
+                "answer": {
+                    "type": "integer",
+                    "const": 42,
+                    "description": "The Answer to the Ultimate Question of Life, the Universe, and Everything. It is 42."
+                },
+                "question": {
+                    "type": ["string", "null"],
+                    "description": "The Ultimate Question. Expected to be null — Earth was destroyed before the computation completed.",
+                    "default": null
+                },
+                "computedBy": {
+                    "type": "object",
+                    "description": "The computing entity that produced this answer.",
+                    "additionalProperties": false,
+                    "required": ["name", "type"],
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "const": "Deep Thought",
+                            "description": "Name of the computer. There is only one valid value."
+                        },
+                        "type": {
+                            "type": "string",
+                            "enum": [
+                                "SECOND_GREATEST_COMPUTER_IN_ALL_OF_TIME_AND_SPACE"
+                            ],
+                            "description": "Classification of the computing entity."
+                        },
+                        "location": {
+                            "type": "string",
+                            "description": "Physical location of the computer.",
+                            "example": "Magrathea"
+                        },
+                        "successor": {
+                            "type": "string",
+                            "description": "The computer commissioned to determine the Question.",
+                            "example": "Earth"
+                        }
+                    }
+                },
+                "computationDuration": {
+                    "type": "object",
+                    "description": "Total time required to compute the answer. It was worth it.",
+                    "additionalProperties": false,
+                    "required": ["value", "unit"],
+                    "properties": {
+                        "value": {
+                            "type": "number",
+                            "minimum": 7500000,
+                            "description": "Duration value. Minimum is 7,500,000. Do not expect a faster result."
+                        },
+                        "unit": {
+                            "type": "string",
+                            "enum": ["years", "millennia", "eons"],
+                            "description": "Time unit. Short durations are not applicable to this computation."
+                        }
+                    }
+                },
+                "computationStatus": {
+                    "type": "string",
+                    "enum": ["COMPLETE", "IN_PROGRESS"],
+                    "description": "Current status of the computation. Should be COMPLETE — it has been 7.5 million years."
+                },
+                "panicking": {
+                    "type": "boolean",
+                    "const": false,
+                    "description": "Indicates whether the consumer should panic. The answer is always false. DON'T PANIC."
+                },
+                "towelsRequired": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Number of towels the consumer should have in their possession. A towel is the most massively useful thing an interstellar hitchhiker can have."
+                },
+                "nextStep": {
+                    "type": "object",
+                    "description": "Details about the follow-up project to determine the actual Question.",
+                    "additionalProperties": false,
+                    "properties": {
+                        "action": {
+                            "type": "string",
+                            "description": "The next required action."
+                        },
+                        "computerName": {
+                            "type": "string",
+                            "description": "Name of the computer to be built."
+                        },
+                        "builtBy": {
+                            "type": "string",
+                            "description": "Entity responsible for construction."
+                        },
+                        "operatingSystem": {
+                            "type": "string",
+                            "description": "The OS running on the follow-up computer."
+                        },
+                        "estimatedDuration": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": ["value", "unit"],
+                            "properties": {
+                                "value": { "type": "number" },
+                                "unit": { "type": "string" }
+                            }
+                        },
+                        "actualStatus": {
+                            "type": "string",
+                            "description": "Current status of the follow-up computer."
+                        },
+                        "timeRemainingAtDestruction": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "value": { "type": "number" },
+                                "unit": { "type": "string" }
+                            }
+                        },
+                        "reasonForDestruction": {
+                            "type": "string",
+                            "description": "Official reason given for the demolition."
+                        }
+                    }
+                },
+                "warnings": {
+                    "type": "array",
+                    "description": "Critical operational advisories. Must include 'DON'T PANIC'.",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "marvinsObservation": {
+                    "type": "string",
+                    "description": "Mandatory commentary from Marvin the Paranoid Android. Must be present. He has been waiting for 37 times the age of the universe to deliver it.",
+                    "minLength": 1
+                },
+                "vogonPoetryRiskLevel": {
+                    "type": "string",
+                    "enum": ["LOW", "MEDIUM", "HIGH", "CRITICAL"],
+                    "description": "Risk level for Vogon poetry exposure during event transit. HIGH or above requires ear protection."
+                },
+                "hitchhikersGuideEntry": {
+                    "type": "string",
+                    "description": "Relevant entry from The Hitchhiker's Guide to the Galaxy (Pan Galactic Edition).",
+                    "example": "Mostly harmless."
+                },
+                "improbabilityFactor": {
+                    "type": "string",
+                    "description": "Infinite Improbability Drive reading at the time of event emission."
+                },
+                "restaurantReservation": {
+                    "type": "object",
+                    "description": "Post-computation dinner reservation at Milliways.",
+                    "additionalProperties": false,
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "description": "Name of the establishment."
+                        },
+                        "reservationTime": {
+                            "type": "string",
+                            "description": "Time of reservation. 'end-of-time' is a valid value."
+                        },
+                        "dresscode": {
+                            "type": "string",
+                            "description": "Required attire."
+                        },
+                        "note": {
+                            "type": "string",
+                            "description": "Additional notes from the restaurant."
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
